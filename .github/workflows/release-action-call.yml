@@ -12,10 +12,10 @@ jobs:
     uses: ./.github/workflows/release-solution-to-prod-with-inputs.yml
     with:
       #You can specify the solution name here
-      solution_name: ALMLab
+      solution_name: TestExportManaged
       #Update your values here
-      BUILD_ENVIRONMENT_URL: http://orge8ef1f7d.crm9.dynamics.com
-      PRODUCTION_ENVIRONMENT_URL: http://orgc0718114.crm9.dynamics.com
+      BUILD_ENVIRONMENT_URL: https://orge8ef1f7d.crm9.dynamics.com
+      PRODUCTION_ENVIRONMENT_URL: https://orgc0718114.crm9.dynamics.com
       CLIENT_ID: 09d22995-3a35-4276-9d62-c44b08c9348d
       TENANT_ID: a8037933-4d29-4ef8-8754-e67b2edd480b   
     secrets:
