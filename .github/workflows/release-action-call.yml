@@ -17,6 +17,8 @@ jobs:
       BUILD_ENVIRONMENT_URL: https://orge8ef1f7d.crm9.dynamics.com
       PRODUCTION_ENVIRONMENT_URL: https://orgc0718114.crm9.dynamics.com
       CLIENT_ID: 09d22995-3a35-4276-9d62-c44b08c9348d
-      TENANT_ID: a8037933-4d29-4ef8-8754-e67b2edd480b   
+      TENANT_ID: a8037933-4d29-4ef8-8754-e67b2edd480b
+      run-asynchronously: true
+      max-async-wait-time: 1000
     secrets:
       envSecret: ${{ secrets.PowerPlatformSPN }}
