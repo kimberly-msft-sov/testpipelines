@@ -59,7 +59,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        lfs: true
+        lfs: false
 
     - name: Pack solution
       uses: microsoft/powerplatform-actions/pack-solution@v0
