@@ -18,6 +18,7 @@ jobs:
       PRODUCTION_ENVIRONMENT_URL: https://orgc0718114.crm9.dynamics.com
       CLIENT_ID: 09d22995-3a35-4276-9d62-c44b08c9348d
       TENANT_ID: a8037933-4d29-4ef8-8754-e67b2edd480b
+      CLIENT_ID2: 6fbd0bba-596c-4924-b406-126685fbba3f
     secrets:
       envSecret: ${{ secrets.PowerPlatformSPN }}
       envSecret2: ${{ secrets.KFAPPREG3 }}
