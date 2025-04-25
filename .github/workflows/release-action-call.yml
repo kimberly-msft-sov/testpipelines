@@ -21,3 +21,4 @@ jobs:
     secrets:
       envSecret: ${{ secrets.PowerPlatformSPN }}
       envSecret2: ${{ secrets.KFAPPREG3 }}
+      
