@@ -7,7 +7,7 @@
   <AsyncAutoDelete>0</AsyncAutoDelete>
   <Description>BasicPlugin.FollowupPlugin: Create of account</Description>
   <FilteringAttributes></FilteringAttributes>
-  <ImpersonatingUserIdName># KimF Test App Registration2</ImpersonatingUserIdName>
+  <ImpersonatingUserIdName># KimF AppReg3</ImpersonatingUserIdName>
   <InvocationSource>0</InvocationSource>
   <Mode>0</Mode>
   <Rank>1</Rank>
