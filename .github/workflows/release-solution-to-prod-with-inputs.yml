@@ -40,6 +40,10 @@ on:
         description: 'The client id'
         type: string
         required: true
+      CLIENT_ID2: 
+        description: 'The 2nd client id'
+        type: string
+        required: true
       TENANT_ID: 
         description: 'The tenant id'
         type: string
@@ -126,7 +130,7 @@ jobs:
       uses: microsoft/powerplatform-actions/import-solution@v1
       with:
         environment-url: ${{inputs.PRODUCTION_ENVIRONMENT_URL}}
-        app-id: ${{inputs.CLIENT_ID}}
+        app-id: ${{inputs.CLIENT_ID2}}
         client-secret: ${{ secrets.envSecret2 }}
         tenant-id: ${{inputs.TENANT_ID}}
         solution-file: ${{ inputs.solution_release_folder}}/${{ inputs.solution_name }}_managed.zip
