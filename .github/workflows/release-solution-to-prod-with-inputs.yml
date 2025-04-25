@@ -48,6 +48,9 @@ on:
       envSecret:
         description: 'The secret value for authentication using SPN'
         required: true
+      envSecret2:
+        description: 'The 2nd secret value for authentication using SPN'
+        required: true
 
 jobs:
   convert-to-managed:
