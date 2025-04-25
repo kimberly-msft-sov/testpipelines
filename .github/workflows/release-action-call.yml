@@ -20,3 +20,4 @@ jobs:
       TENANT_ID: a8037933-4d29-4ef8-8754-e67b2edd480b
     secrets:
       envSecret: ${{ secrets.PowerPlatformSPN }}
+      envSecret2: ${{ secrets.KFAPPREG3 }}
